@@ -1,4 +1,4 @@
 (*images used in the project are property of CodingNinja Platform*)
 
 # Blog : CodingNinjas
-<img src = "/Blog:First html page/imgs/index.png">
+<a href = ""> Click to see Live Demo</a>
