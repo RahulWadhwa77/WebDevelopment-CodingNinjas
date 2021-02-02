@@ -1,4 +1,4 @@
 (*images used in the project are property of CodingNinja Platform*)
 
 # Blog : CodingNinjas
-<a href = ""> Blog:First html page</a>
+<a href = "https://codepen.io/rahulWadhwa/pen/GRNJGVR"> Blog:First html page</a>
