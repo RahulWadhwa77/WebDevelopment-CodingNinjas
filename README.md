@@ -4,4 +4,4 @@
 <a href = "https://codepen.io/rahulWadhwa/full/GRNJGVR">Live Demo </a>
 
 # Walkthrough : html blog
-<a href = "">Live Demo</a>
+<a href = "https://codepen.io/rahulWadhwa/full/jOVWXwz">Live Demo</a>
