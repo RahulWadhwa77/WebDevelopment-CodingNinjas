@@ -1,11 +1,15 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    margin: 0px;
+    margin: 0;
     font-family: sans-serif;
     font-size: 30px;
 }
 
-body::-webkit-scrollbar { 
-    display: none; 
+body::-webkit-scrollbar {
+    display: none;
 }
 
 
@@ -14,7 +18,7 @@ body::-webkit-scrollbar {
 #body-header {
     height: 65vh;
     opacity: 0.8;
-    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    background-image: url(https://i.imgur.com/Yi6yLl6.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -22,13 +26,11 @@ body::-webkit-scrollbar {
 }
 
 
-
 /* Horizontal Lists */
 
-.bars{
+.bars {
     color: white;
-    margin: 0;
-    margin-right: 5%;
+    margin: 0 5% 0 0;
     display: none;
 }
 
@@ -36,30 +38,30 @@ body::-webkit-scrollbar {
     font-size: 2rem;
 }
 
-.dropdown-list{
+.dropdown-list {
     margin: 0;
     display: none;
     background-color: #828470;
-    box-shadow: 0px 4px 8px 1px #535547;
+    box-shadow: 0 4px 8px 1px #535547;
 }
 
-.dropdown-list ul{
+.dropdown-list ul {
     margin: 0.2rem 0.2rem;
     text-align: left;
-    padding: 0px 0.8rem;
+    padding: 0 0.8rem;
 }
 
-.dropdown-menu:hover .dropdown-list{
+.dropdown-menu:hover .dropdown-list {
     display: block;
     position: absolute;
     right: 3%;
 }
 
-.dropdown-list li{
-    margin: 0.4rem 0px;
+.dropdown-list li {
+    margin: 0.4rem 0;
 }
 
-.no-list-style{
+.no-list-style {
     list-style: none;
 }
 
@@ -68,20 +70,20 @@ body::-webkit-scrollbar {
     font-size: 0.9rem;
 }
 
-.no-list-style li a{
+.no-list-style li a {
     list-style: none;
     color: white;
     text-decoration: none;
 }
 
 .horizontal-list {
-    padding-left: 0px;
-    margin: 0px;
+    padding-left: 0;
+    margin: 0;
 }
 
 .horizontal-list li {
     display: inline-block;
-    margin: 0px 8px 8px 0px;
+    margin: 0 8px 8px 0;
 }
 
 
@@ -116,9 +118,8 @@ body::-webkit-scrollbar {
 }
 
 .social-icons li a i:hover {
-    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+    box-shadow: 0 0 6px 4px rgba(230, 196, 196, 0.3);
 }
-
 
 
 /*Section Classes*/
@@ -153,7 +154,6 @@ section:nth-child(2n + 1) {
 }
 
 
-
 /*About Section*/
 
 #about {
@@ -166,8 +166,7 @@ section:nth-child(2n + 1) {
 #my-image {
     height: 12rem;
     width: 12rem;
-    margin: auto;
-    margin-top: -17vh;
+    margin: -17vh auto auto;
 }
 
 #my-image img {
@@ -189,11 +188,10 @@ section:nth-child(2n + 1) {
 }
 
 
-
 /*Skills Section*/
 
 .skills-display {
-    width: 75%;
+    width: 74%;
     padding: 10px;
     margin-bottom: 30px;
     display: flex;
@@ -212,7 +210,7 @@ section:nth-child(2n + 1) {
 }
 
 .skill-progress > div {
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 20px 0 0 20px;
     box-shadow: 1px 1px 5px 2px #989882;
 }
 
@@ -222,7 +220,6 @@ section:nth-child(2n + 1) {
     margin-left: 10px;
     vertical-align: middle;
 }
-
 
 
 /* Work Experience */
@@ -313,7 +310,6 @@ section:nth-child(2n + 1) {
 }
 
 .experience-duration {
-    color: #9e9b9b;
     font-weight: 100;
     color: grey;
     font-size: 1rem;
@@ -325,10 +321,6 @@ section:nth-child(2n + 1) {
     color: grey;
     line-height: 20px;
 }
-
-
-
-
 
 
 /* Portfolio Section */
@@ -375,7 +367,6 @@ section:nth-child(2n + 1) {
     background-color: #80808078;
     color: white;
 }
-
 
 
 /* Contact Form */
@@ -447,7 +438,7 @@ textarea {
     max-width: 90%;
     margin: 15px;
     padding: 4px 10px;
-    border: 0px solid transparent;
+    border: 0 solid transparent;
     border-bottom: 2px solid white;
     color: #d9dcdd;
     background: transparent;
@@ -493,7 +484,7 @@ button:focus {
 
 /* Common Text Align Classes */
 
-.text-right{
+.text-right {
     text-align: right;
 }
 
@@ -518,7 +509,6 @@ button:focus {
 .mb50px {
     margin-bottom: 50px;
 }
-
 
 
 /*common color classes */
@@ -553,7 +543,6 @@ button:focus {
 }
 
 
-
 /*Percentage Classes */
 
 .eighty-five-percent {
@@ -573,7 +562,7 @@ button:focus {
 
 
 @media only screen and (max-width: 572px) {
-    
+
     .timeline-box {
         width: 100%;
         left: 10% !important;
@@ -582,13 +571,12 @@ button:focus {
     .bars {
         display: block;
     }
-    
-    
+
+
     .nav-menu {
         display: none;
-    } 
+    }
 }
-
 
 
 @media only screen and (max-width: 768px) {
@@ -609,7 +597,7 @@ button:focus {
     }
 
     #contact-form {
-        margin-left: 0%;
+        margin-left: 0;
     }
 
     #contact-container {
